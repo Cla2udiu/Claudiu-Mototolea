@@ -3,7 +3,7 @@ D=16;%avem un semanal triunghiular simetric monoalernant de durata D=16
 T=40;%perioada semnalului
 f=1/T;%frecventa semnalului
 w=2*pi*f;%pulsatia semnalului
-rezolutia=0.0001; %am ales rezolutia temporara de 0.1 ms
+rezolutia=0.0004; %am ales rezolutia temporara de 0.4 ms
 t=0:rezolutia:2*T;% t porneste de la valoarea initiala 0,cu pasul de 0.0001, afisand in final 2 perioade (2*T),
 N=50;%numarul de coeficienti
 s=(sawtooth(w*t,0.5)+abs(sawtooth(w*t,0.5)))/2;
